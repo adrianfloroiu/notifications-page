@@ -22,7 +22,7 @@ I tried building this one using React JS, which I am still learning. It helped m
 
 ### Links
 
-- Solution URL:
+- Solution URL: [https://www.frontendmentor.io/solutions/notifications-page-using-reactjs-Les8mpP-x_](https://www.frontendmentor.io/solutions/notifications-page-using-reactjs-Les8mpP-x_)
 - Live Site URL: [https://adrianfloroiu.github.io/notifications-page/](https://adrianfloroiu.github.io/notifications-page/)
 
 ## Built with
