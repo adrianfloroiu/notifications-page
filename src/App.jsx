@@ -6,7 +6,7 @@ function App() {
   const [notifications, setNotifications] = useState([
     {
       id: 1,
-      avatar: "/assets/avatar-mark-webber.webp",
+      avatar: "./avatar-mark-webber.webp",
       author: "Mark Webber",
       title: "reacted to your recent post",
       post: "My first tournament today!",
@@ -15,7 +15,7 @@ function App() {
     },
     {
       id: 2,
-      avatar: "/assets/avatar-angela-gray.webp",
+      avatar: "./avatar-angela-gray.webp",
       author: "Angela Gray",
       title: "followed you",
       time: "5m ago",
@@ -23,7 +23,7 @@ function App() {
     },
     {
       id: 3,
-      avatar: "/assets/avatar-jacob-thompson.webp",
+      avatar: "./avatar-jacob-thompson.webp",
       author: "Jacob Thompson",
       title: "has joined your group",
       group: "Chess Club",
@@ -32,7 +32,7 @@ function App() {
     },
     {
       id: 4,
-      avatar: "/assets/avatar-rizky-hasanuddin.webp",
+      avatar: "./avatar-rizky-hasanuddin.webp",
       author: "Rizky Hasanuddin",
       title: "sent you a private message",
       message:
@@ -42,16 +42,16 @@ function App() {
     },
     {
       id: 5,
-      avatar: "/assets/avatar-kimberly-smith.webp",
+      avatar: "./avatar-kimberly-smith.webp",
       author: "Kimberly Smith",
       title: "commented on your picture",
-      picture: "/assets/image-chess.webp",
+      picture: "./image-chess.webp",
       time: "1 week ago",
       isUnread: false,
     },
     {
       id: 6,
-      avatar: "/assets/avatar-nathan-peterson.webp",
+      avatar: "./avatar-nathan-peterson.webp",
       author: "Nathan Peterson",
       title: "reacted to your recent post",
       post: "5 end-game strategies to increase your win rate",
@@ -60,7 +60,7 @@ function App() {
     },
     {
       id: 7,
-      avatar: "/assets/avatar-anna-kim.webp",
+      avatar: "./avatar-anna-kim.webp",
       author: "Anna Kim",
       title: "left the group",
       group: "Chess Club",
