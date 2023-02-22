@@ -93,24 +93,24 @@ img {
   color: var(--dark-grayish-blue);
 }
 
-.notification-text .title #author {
+.notification-text .title .author {
   color: var(--very-dark-blue);
   font-weight: 800;
 }
 
-.notification-text .title #post,
-.notification-text .title #group {
+.notification-text .title .post,
+.notification-text .title .group {
   font-weight: 800;
 }
 
-.title #author:hover,
-.title #post:hover,
-.title #group:hover {
+.title .author:hover,
+.title .post:hover,
+.title .group:hover {
   color: var(--blue);
   cursor: pointer;
 }
 
-.notification-text .title #dot {
+.notification-text .title .dot {
   background-color: var(--red);
   display: inline-block;
   margin: 0 0 .1rem .3rem;

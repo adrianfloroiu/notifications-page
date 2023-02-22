@@ -15,11 +15,11 @@ function Notification({ notification }) {
       <div className="notification-text">
         <p className="title">
           {" "}
-          <span id="author">{notification.author}</span>&nbsp;
+          <span className="author">{notification.author}</span>&nbsp;
           {notification.title}&nbsp;
-          <span id="post">{notification.post}</span>
-          <span id="group">{notification.group}</span>
-          {unread && <span id="dot"></span>}
+          <span className="post">{notification.post}</span>
+          <span className="group">{notification.group}</span>
+          {unread && <span className="dot"></span>}
         </p>
         <p className="time">{notification.time}</p>
         {notification.message && (
